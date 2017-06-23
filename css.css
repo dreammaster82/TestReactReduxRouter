@@ -1,0 +1,22 @@
+header{
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+header h1{
+    font-size: 25px;
+    margin-top: 10px;
+}
+main > div{
+    height: calc(100vh - 68px);
+    display: flex;
+    flex-wrap: nowrap;
+}
+main > div > *{
+    flex: 1;
+    padding: 10px;
+}
+
+main aside{
+    flex: 0 1 200px;
+    border-right: 1px solid grey;
+}
